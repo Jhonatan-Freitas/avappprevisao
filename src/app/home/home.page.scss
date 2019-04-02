@@ -1,0 +1,34 @@
+ion-content{
+    --background: url("../../assets/imgs/background.jpg"); 
+    --background-position: center;
+    --background-repeat: no-repeat;
+    --background-size: cover;
+}
+
+.bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.table{
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ion-button{
+   
+}
+
+.date{
+    font-family: 'Acme', sans-serif;
+}
+
+.opacity{
+    opacity: 0.8;
+}
+
+.city-name{
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+}
