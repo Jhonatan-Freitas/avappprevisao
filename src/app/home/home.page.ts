@@ -33,8 +33,8 @@ export class HomePage implements OnInit {
 
   search(){
     this.searchWeatherProv.searchWeather(this.txtCidade).subscribe(
-      data => {
-        this.previsoes = data;
+      (data:any) => {
+        this.previsoes = data.results;
         console.log(this.previsoes);
       },
       error =>{

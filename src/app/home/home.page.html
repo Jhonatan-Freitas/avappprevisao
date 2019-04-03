@@ -9,7 +9,7 @@
     </ion-list>
     <ion-button (click)="search()" expand="block">Localizar</ion-button>
 <div class="container text-center table-responsive-sm">  
-    <p class="city-name text-center text-white">{{previsoes.results.city_name}}</p>
+    <p class="city-name text-center text-white">{{previsoes.city_name}}</p>
       <table class="table" *ngIf="previsoes">
         <thead>
           <tr>
@@ -21,7 +21,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let previsao of previsoes.results.forecast">
+          <tr *ngFor="let previsao of previsoes.forecast">
               <td>{{previsao.date}}</td>
               <td>{{previsao.weekday}}</td>
               <td>{{previsao.max}}°C</td>

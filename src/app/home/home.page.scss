@@ -1,8 +1,5 @@
 ion-content{
-    --background: url("../../assets/imgs/background.jpg"); 
-    --background-position: center;
-    --background-repeat: no-repeat;
-    --background-size: cover;
+    --background: url("../../assets/imgs/background.jpg") no-repeat center center / cover;; 
 }
 
 .bg{
@@ -14,10 +11,6 @@ ion-content{
 .table{
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-ion-button{
-   
 }
 
 .date{
